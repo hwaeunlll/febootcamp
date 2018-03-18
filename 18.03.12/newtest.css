@@ -1,0 +1,21 @@
+
+    .tab_01{
+        font-size: 14px;
+        color:#727272 ;
+        float: left;
+        padding-right: 14px ;
+        padding-left: 14px;
+    
+        }
+
+        .tab{
+    font-size: 14px;
+    color: #829c00 ;
+    border: top 3px;
+    float: left;
+    padding-right: 24px;
+    border-bottom: 3px solid #829c00;
+    padding-bottom: 14px
+
+    }
+
