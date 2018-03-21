@@ -1,0 +1,12 @@
+.main {
+    border: 1px solid red;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.right-box {
+    border: 1px solid blue;
+    padding: 10px;
+    float: left;
+    width: 100px;
+}
