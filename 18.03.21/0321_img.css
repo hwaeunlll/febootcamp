@@ -1,0 +1,15 @@
+.ir{
+  border : 1px solid red;
+  width: 100px;
+  height: 100px;
+  background : url(http://heem.net/fastcampus/2/image2.png) no-repeat 0 0;
+  text-indent : -9999px; /*텍스트를 상자밖으로*/
+  overflow : hidden
+  
+}
+.facebook {background-position : -200px 0}
+
+.gift{background-position : 0 -100px}
+.coffee{background-position : 0 -200px}
+.google{background-position : 0 -400px;
+width: 300px;}
