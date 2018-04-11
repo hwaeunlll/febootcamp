@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<table>
+    <tr>
+        <!-- th:제목 -->
+        <th>id</th>
+        <th>이름</th>     
+        <th>나이</th>
+    </tr>
+    <tr>
+        <!-- td 본문내용 -->
+        <td>hi</td>
+        <td>이화은</td>
+        <td>26세</td>
+    </tr>
+</table>
+
+<!-- colspan -->
+<table>
+    <tr>
+        <th>1</th>
+        <th>2</th>
+        <th>3</th>
+        <th>4</th>
+    </tr>
+
+    <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+    </tr>
+
+    <tr>
+        <td></td>
+        <td colspan="2"></td>
+        <td></td>
+    </tr>
+
+    <tr>
+        <td>1</td>
+        <td colspan="3">2</td>
+
+    </tr>
+
+
+</table>
+
+<!-- rowspan -->
+<table>
+    <tr>
+        <th>연도</th>
+        <th>월</th>
+        <th>계획</th>
+    </tr>
+    <tr>
+        <td rowspan="4">2015</td>
+        <td rowspan="2">1</td>
+        <td>논의</td>
+    </tr>
+    <tr>
+
+        <td>논의</td>
+    </tr>
+
+    <tr>
+        <td>2</td>
+        <td>논의</td>
+    </tr>
+
+    <tr>
+        <td>2</td>
+        <td>논의</td>
+    </tr>
+
+
+
+</table>
+table>(tr>th*3)+(tr>td*3)  
+
+
+</body>
+</html>
