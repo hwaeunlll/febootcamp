@@ -1,0 +1,51 @@
+h1 {
+    border: 1px solid red;
+    outline: 1px solid blue;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 20px;
+    background: #ccc;
+    overflow: hidden;
+}
+
+h1 small:hover {
+    background: #fff;
+}
+
+h1 small {
+    width: 200px;
+    height: 200px;
+    background: #000;
+    display: block;
+}
+
+
+div {
+    border: 1px solid red
+}
+
+.block {
+    display: block;
+}
+
+.inline {
+    display: inline;
+}
+
+.ib {
+    display: inline-block;
+}
+
+header,
+section {
+    border: 1px solid red;
+}
+
+.s1 {
+    float: right;
+}
+
+.s2 {
+    float: left;
+}
